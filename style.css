@@ -88,20 +88,26 @@ form:valid .fa {
 
 .heading-text {
     width: 50%;
-    text-align: left; /* Align text to the left */
+    text-align: left; 
+
 }
 
 .heading-title {
     font-family: 'Overpass', sans-serif;
-    font-weight: 600; /* Semi-bold effect */
-    font-size: 2em; /* Adjust size as needed */
-    color: #232323;
+    font-weight: 600; 
+    font-size: 2em; 
+    background: linear-gradient(to bottom left,  #553c9a, #ee4b2b); /* Gradient background */
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent; 
+    display: inline; 
 }
+
 
 .heading-image {
     width: 50%;
     text-align: right; /* Align image to the right */
-    
+
 }
 
 .heading-image img {
