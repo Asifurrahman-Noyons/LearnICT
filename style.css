@@ -11,7 +11,7 @@ body {
 /* Search bar */
 form {
     position: relative;
-    margin: 20px; 
+    margin: 10px 20px 5px 20px;
     transition: all 1s;
     width: 50px;
     height: 50px;
@@ -101,6 +101,7 @@ form:valid .fa {
 .heading-image {
     width: 50%;
     text-align: right; /* Align image to the right */
+    
 }
 
 .heading-image img {
@@ -228,4 +229,3 @@ form:valid .fa {
 .bottom-nav a:hover {
     color: #3366FF;
 }
-
