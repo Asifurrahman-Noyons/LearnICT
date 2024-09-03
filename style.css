@@ -11,7 +11,7 @@ body {
 /* Search bar */
 form {
     position: relative;
-    margin: 100px; /* Add left and right margins of 20px */
+    margin: 20px; /* Add left and right margins of 20px */
     transition: all 1s;
     width: 50px;
     height: 50px;
@@ -180,6 +180,8 @@ form:valid .fa {
     .title, .description {
         margin: 5px 0;
         text-align: left;
+        font-size: 14px;
+        line-height: 1em;
     }
 }
 
@@ -201,7 +203,8 @@ form:valid .fa {
 .bottom-nav a {
     flex: 1;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+    font-size: 14px;
     text-decoration: none;
     color: #888;
     transition: transform 0.3s, color 0.3s;
@@ -224,36 +227,5 @@ form:valid .fa {
 
 .bottom-nav a:hover {
     color: #3366FF;
-}
-
-/* Top-right menu bar for larger screens */
-@media (min-width: 769px) {
-    .bottom-nav {
-        position: fixed;
-        top: 0;
-        left: auto;
-        right: 0;
-        bottom: auto;
-        width: auto;
-        height: 80%;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
-        border-radius: 0 10px 10px 0;
-        padding: 15px 10px;
-    }
-
-    .bottom-nav a {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 15px 10px;
-        text-decoration: none;
-        color: #888;
-        transition: color 0.3s;
-    }
 }
 
