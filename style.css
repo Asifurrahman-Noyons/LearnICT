@@ -235,7 +235,7 @@ form:valid .fa {
         right: 0;
         bottom: auto;
         width: auto;
-        height: 100%;
+        height: 80%;
         background-color: white;
         display: flex;
         flex-direction: column;
